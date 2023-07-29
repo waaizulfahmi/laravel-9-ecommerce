@@ -7,10 +7,10 @@
     <title>{{$product->name}}</title>
 </head>
 <body>
-    <p>Name {{$product->name}}</p>
-    <p>Description {{$product->description}}</p>
-    <p>{{$product->price}}</p>
-    <p>{{$product->stock}}</p>
-    <img src="{{url('storage/'.$item->image)}}" alt="gambar product" height="100px">
+    <p>Name : {{$product->name}}</p>
+    <p>Description :{{$product->description}}</p>
+    <p>Price : Rp.{{$product->price}}</p>
+    <p>Stok : {{$product->stock}}</p>
+    <img src="{{url('storage/'.$product->image)}}" alt="gambar product" height="100px">
 </body>
 </html>

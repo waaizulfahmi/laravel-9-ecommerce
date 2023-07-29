@@ -42,11 +42,15 @@ class ProductController extends Controller
 
     public function index_product(){
         $product = Product::all();
+      
+        // dd($product);
         return view('index_product', compact('product'));
 
     }
 
-    public function show_product(){
+    public function show_product($id){
+        $product = Product::find($id);
+
         return view('show_product', compact('product'));
     }
 }
