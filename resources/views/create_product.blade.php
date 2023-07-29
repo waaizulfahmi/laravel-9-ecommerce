@@ -14,7 +14,6 @@
         <br>
         <input type="text" name="description" placeholder="decs">
         <br>
-
         <input type="number" name="price" placeholder="price">
         
         <br>
